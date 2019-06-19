@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('.TestIndex');
+});
+
+Route::get('/home' , function(){
+	return view('.index');
+});
+
+Route::get('/buttons' , function(){
+	return view('.buttons');
 });
