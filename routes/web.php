@@ -22,3 +22,7 @@ Route::get('/home' , function(){
 Route::get('/buttons' , function(){
 	return view('.buttons');
 });
+
+Route::get('/Test/schedule' , function(){
+	return view('.Test.index');
+});

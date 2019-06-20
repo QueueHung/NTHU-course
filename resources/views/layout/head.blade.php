@@ -10,6 +10,7 @@
     <meta name="author" content="">
 
     <title>SB Admin 2 - Dashboard</title>
+    <!-- css style -->
 
     <!-- Custom fonts for this template-->
     <link href="{{asset('vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
@@ -17,10 +18,13 @@
 
     <!-- Custom styles for this template-->
     <link href="{{asset('css/sb-admin-2.min.css')}}" rel="stylesheet">
+    
+    <!-- Schedule javascript -->
+    <link href="{{asset('css/style.css')}}" rel="stylesheet" >
 
     <!-- JavaScript -->
     <!-- Bootstrap core JavaScript-->
-    <script src={{asset("vendor/jquery/jquery.min.js")}}></script>
+    <script src="{{asset('vendor/jquery/jquery.min.js')}}""></script>
     <script src={{asset("vendor/bootstrap/js/bootstrap.bundle.min.js")}}></script>
 
     <!-- Core plugin JavaScript-->
@@ -35,6 +39,10 @@
     <!-- Page level custom scripts -->
     <script src={{asset("js/demo/chart-area-demo.js")}}></script>
     <script src={{asset("js/demo/chart-pie-demo.js")}}></script>
+
+    <!-- Schedule javascript -->
+    <script src="{{asset('js/util.js')}}"></script> <!-- util functions included in the CodyHouse framework -->
+    <script src="{{asset('js/main.js')}}"></script>
 
   </head>
 
