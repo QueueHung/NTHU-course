@@ -1,187 +1,184 @@
-<div class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule">
-    <div class="cd-schedule__timeline">
-      <ul>
-        <li><span>09:00</span></li>
-        <li><span>09:30</span></li>
-        <li><span>10:00</span></li>
-        <li><span>10:30</span></li>
-        <li><span>11:00</span></li>
-        <li><span>11:30</span></li>
-        <li><span>12:00</span></li>
-        <li><span>12:30</span></li>
-        <li><span>13:00</span></li>
-        <li><span>13:30</span></li>
-        <li><span>14:00</span></li>
-        <li><span>14:30</span></li>
-        <li><span>15:00</span></li>
-        <li><span>15:30</span></li>
-        <li><span>16:00</span></li>
-        <li><span>16:30</span></li>
-        <li><span>17:00</span></li>
-        <li><span>17:30</span></li>
-        <li><span>18:00</span></li>
-      </ul>
-    </div> <!-- .cd-schedule__timeline -->
-  
-    <div class="cd-schedule__events">
-      <ul>
-        <li class="cd-schedule__group">
-          <div class="cd-schedule__top-info"><span>Monday</span></div>
-  
-          <ul>
-            <li class="cd-schedule__event">
-              <a data-start="09:30" data-end="10:30" data-content="event-abs-circuit" data-event="event-1" href="#0">
-                <em class="cd-schedule__name">Abs Circuit</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="11:00" data-end="12:30" data-content="event-rowing-workout" data-event="event-2" href="#0">
-                <em class="cd-schedule__name">Rowing Workout</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="14:00" data-end="15:15"  data-content="event-yoga-1" data-event="event-3" href="#0">
-                <em class="cd-schedule__name">Yoga Level 1</em>
-              </a>
-            </li>
-          </ul>
-        </li>
-  
-        <li class="cd-schedule__group">
-          <div class="cd-schedule__top-info"><span>Tuesday</span></div>
-  
-          <ul>
-            <li class="cd-schedule__event">
-              <a data-start="10:00" data-end="11:00"  data-content="event-rowing-workout" data-event="event-2" href="#0">
-                <em class="cd-schedule__name">Rowing Workout</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="11:30" data-end="13:00"  data-content="event-restorative-yoga" data-event="event-4" href="#0">
-                <em class="cd-schedule__name">Restorative Yoga</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="13:30" data-end="15:00" data-content="event-abs-circuit" data-event="event-1" href="#0">
-                <em class="cd-schedule__name">Abs Circuit</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="15:45" data-end="16:45"  data-content="event-yoga-1" data-event="event-3" href="#0">
-                <em class="cd-schedule__name">Yoga Level 1</em>
-              </a>
-            </li>
-          </ul>
-        </li>
-  
-        <li class="cd-schedule__group">
-          <div class="cd-schedule__top-info"><span>Wednesday</span></div>
-  
-          <ul>
-            <li class="cd-schedule__event">
-              <a data-start="09:00" data-end="10:15" data-content="event-restorative-yoga" data-event="event-4" href="#0">
-                <em class="cd-schedule__name">Restorative Yoga</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="10:45" data-end="11:45" data-content="event-yoga-1" data-event="event-3" href="#0">
-                <em class="cd-schedule__name">Yoga Level 1</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="12:00" data-end="13:45"  data-content="event-rowing-workout" data-event="event-2" href="#0">
-                <em class="cd-schedule__name">Rowing Workout</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="13:45" data-end="15:00" data-content="event-yoga-1" data-event="event-3" href="#0">
-                <em class="cd-schedule__name">Yoga Level 1</em>
-              </a>
-            </li>
-          </ul>
-        </li>
-  
-        <li class="cd-schedule__group">
-          <div class="cd-schedule__top-info"><span>Thursday</span></div>
-  
-          <ul>
-            <li class="cd-schedule__event">
-              <a data-start="09:30" data-end="10:30" data-content="event-abs-circuit" data-event="event-1" href="#0">
-                <em class="cd-schedule__name">Abs Circuit</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="12:00" data-end="13:45" data-content="event-restorative-yoga" data-event="event-4" href="#0">
-                <em class="cd-schedule__name">Restorative Yoga</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="15:30" data-end="16:30" data-content="event-abs-circuit" data-event="event-1" href="#0">
-                <em class="cd-schedule__name">Abs Circuit</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="17:00" data-end="18:30"  data-content="event-rowing-workout" data-event="event-2" href="#0">
-                <em class="cd-schedule__name">Rowing Workout</em>
-              </a>
-            </li>
-          </ul>
-        </li>
-  
-        <li class="cd-schedule__group">
-          <div class="cd-schedule__top-info"><span>Friday</span></div>
-  
-          <ul>
-            <li class="cd-schedule__event">
-              <a data-start="10:00" data-end="11:00"  data-content="event-rowing-workout" data-event="event-2" href="#0">
-                <em class="cd-schedule__name">Rowing Workout</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="12:30" data-end="14:00" data-content="event-abs-circuit" data-event="event-1" href="#0">
-                <em class="cd-schedule__name">Abs Circuit</em>
-              </a>
-            </li>
-  
-            <li class="cd-schedule__event">
-              <a data-start="15:45" data-end="16:45"  data-content="event-yoga-1" data-event="event-3" href="#0">
-                <em class="cd-schedule__name">Yoga Level 1</em>
-              </a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-  
-    <div class="cd-schedule-modal">
-      <header class="cd-schedule-modal__header">
-        <div class="cd-schedule-modal__content">
-          <span class="cd-schedule-modal__date"></span>
-          <h3 class="cd-schedule-modal__name"></h3>
-        </div>
-  
-        <div class="cd-schedule-modal__header-bg"></div>
-      </header>
-  
-      <div class="cd-schedule-modal__body">
-        <div class="cd-schedule-modal__event-info"></div>
-        <div class="cd-schedule-modal__body-bg"></div>
-      </div>
-  
-      <a href="#0" class="cd-schedule-modal__close text-replace">Close</a>
-    </div>
-  
-    <div class="cd-schedule__cover-layer"></div>
-  </div> <!-- .cd-schedule -->
+<!--===============================================================================================-->  
+  <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+<!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="css/util.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+
+<div class="table100 ver1 m-b-110">
+  <table data-vertable="ver1">
+    <thead>
+      <tr class="row100 head">
+        <th class="column100 column1" data-column="column1"></th>
+        <th class="column100 column2" data-column="column2">Monday</th>
+        <th class="column100 column3" data-column="column3">Tuesday</th>
+        <th class="column100 column4" data-column="column4">Wednesday</th>
+        <th class="column100 column5" data-column="column5">Thursday</th>
+        <th class="column100 column6" data-column="column6">Friday</th>
+        <th class="column100 column7" data-column="column7">Saturday</th>
+        <th class="column100 column8" data-column="column8">Sunday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="row100">
+        <td class="column100 column1" data-column="column1">08:00 ~ 08:50</td>
+        <td class="column100 column2" data-column="column2">8:00 AM</td>
+        <td class="column100 column3" data-column="column3">--</td>
+        <td class="column100 column4" data-column="column4">--</td>
+        <td class="column100 column5" data-column="column5">8:00 AM</td>
+        <td class="column100 column6" data-column="column6">--</td>
+        <td class="column100 column7" data-column="column7">5:00 PM</td>
+        <td class="column100 column8" data-column="column8">8:00 AM</td>
+      </tr>
+
+      <tr class="row100">
+        <td class="column100 column1" data-column="column1">09:00 ~ 09:50</td>
+        <td class="column100 column2" data-column="column2">--</td>
+        <td class="column100 column3" data-column="column3">5:00 PM</td>
+        <td class="column100 column4" data-column="column4">5:00 PM</td>
+        <td class="column100 column5" data-column="column5">--</td>
+        <td class="column100 column6" data-column="column6">9:00 AM</td>
+        <td class="column100 column7" data-column="column7">--</td>
+        <td class="column100 column8" data-column="column8">--</td>
+      </tr>
+
+      <tr class="row100">
+        <td class="column100 column1" data-column="column1">10:10 ~ 11:00</td>
+        <td class="column100 column2" data-column="column2">9:00 AM</td>
+        <td class="column100 column3" data-column="column3">--</td>
+        <td class="column100 column4" data-column="column4">--</td>
+        <td class="column100 column5" data-column="column5">--</td>
+        <td class="column100 column6" data-column="column6">--</td>
+        <td class="column100 column7" data-column="column7">2:00 PM</td>
+        <td class="column100 column8" data-column="column8">8:00 AM</td>
+      </tr>
+
+      <tr class="row100">
+        <td class="column100 column1" data-column="column1">11:10 ~ 12:00</td>
+        <td class="column100 column2" data-column="column2">--</td>
+        <td class="column100 column3" data-column="column3">5:00 PM</td>
+        <td class="column100 column4" data-column="column4">5:00 PM</td>
+        <td class="column100 column5" data-column="column5">--</td>
+        <td class="column100 column6" data-column="column6">9:00 AM</td>
+        <td class="column100 column7" data-column="column7">--</td>
+        <td class="column100 column8" data-column="column8">--</td>
+      </tr>
+
+      <tr class="row100">
+        <td class="column100 column1" data-column="column1">12:10 ~ 13:00</td>
+        <td class="column100 column2" data-column="column2">8:00 AM</td>
+        <td class="column100 column3" data-column="column3">--</td>
+        <td class="column100 column4" data-column="column4">--</td>
+        <td class="column100 column5" data-column="column5">8:00 AM</td>
+        <td class="column100 column6" data-column="column6">--</td>
+        <td class="column100 column7" data-column="column7">5:00 PM</td>
+        <td class="column100 column8" data-column="column8">8:00 AM</td>
+      </tr>
+
+      <tr class="row100">
+        <td class="column100 column1" data-column="column1">13:20 ~ 14:10</td>
+        <td class="column100 column2" data-column="column2">--</td>
+        <td class="column100 column3" data-column="column3">5:00 PM</td>
+        <td class="column100 column4" data-column="column4">5:00 PM</td>
+        <td class="column100 column5" data-column="column5">--</td>
+        <td class="column100 column6" data-column="column6">9:00 AM</td>
+        <td class="column100 column7" data-column="column7">--</td>
+        <td class="column100 column8" data-column="column8">--</td>
+      </tr>
+
+      <tr class="row100">
+        <td class="column100 column1" data-column="column1">14:20 ~ 15:10</td>
+        <td class="column100 column2" data-column="column2">9:00 AM</td>
+        <td class="column100 column3" data-column="column3">--</td>
+        <td class="column100 column4" data-column="column4">--</td>
+        <td class="column100 column5" data-column="column5">--</td>
+        <td class="column100 column6" data-column="column6">--</td>
+        <td class="column100 column7" data-column="column7">2:00 PM</td>
+        <td class="column100 column8" data-column="column8">8:00 AM</td>
+      </tr>
+
+      <tr class="row100">
+        <td class="column100 column1" data-column="column1">15:30 ~ 16:20</td>
+        <td class="column100 column2" data-column="column2">8:00 AM</td>
+        <td class="column100 column3" data-column="column3">--</td>
+        <td class="column100 column4" data-column="column4">--</td>
+        <td class="column100 column5" data-column="column5">8:00 AM</td>
+        <td class="column100 column6" data-column="column6">--</td>
+        <td class="column100 column7" data-column="column7">5:00 PM</td>
+        <td class="column100 column8" data-column="column8">8:00 AM</td>
+      </tr>
+      <tr class="row100">
+        <td class="column100 column1" data-column="column1">16:30 ~ 17:20</td>
+        <td class="column100 column2" data-column="column2">8:00 AM</td>
+        <td class="column100 column3" data-column="column3">--</td>
+        <td class="column100 column4" data-column="column4">--</td>
+        <td class="column100 column5" data-column="column5">8:00 AM</td>
+        <td class="column100 column6" data-column="column6">--</td>
+        <td class="column100 column7" data-column="column7">5:00 PM</td>
+        <td class="column100 column8" data-column="column8">8:00 AM</td>
+      </tr>
+      <tr class="row100">
+        <td class="column100 column1" data-column="column1">17:30 ~ 18:20</td>
+        <td class="column100 column2" data-column="column2">8:00 AM</td>
+        <td class="column100 column3" data-column="column3">--</td>
+        <td class="column100 column4" data-column="column4">--</td>
+        <td class="column100 column5" data-column="column5">8:00 AM</td>
+        <td class="column100 column6" data-column="column6">--</td>
+        <td class="column100 column7" data-column="column7">5:00 PM</td>
+        <td class="column100 column8" data-column="column8">8:00 AM</td>
+      </tr>
+      <tr class="row100">
+        <td class="column100 column1" data-column="column1">18:30 ~ 19:20</td>
+        <td class="column100 column2" data-column="column2">8:00 AM</td>
+        <td class="column100 column3" data-column="column3">--</td>
+        <td class="column100 column4" data-column="column4">--</td>
+        <td class="column100 column5" data-column="column5">8:00 AM</td>
+        <td class="column100 column6" data-column="column6">--</td>
+        <td class="column100 column7" data-column="column7">5:00 PM</td>
+        <td class="column100 column8" data-column="column8">8:00 AM</td>
+      </tr>
+      <tr class="row100">
+        <td class="column100 column1" data-column="column1">19:30 ~ 20:20</td>
+        <td class="column100 column2" data-column="column2">8:00 AM</td>
+        <td class="column100 column3" data-column="column3">--</td>
+        <td class="column100 column4" data-column="column4">--</td>
+        <td class="column100 column5" data-column="column5">8:00 AM</td>
+        <td class="column100 column6" data-column="column6">--</td>
+        <td class="column100 column7" data-column="column7">5:00 PM</td>
+        <td class="column100 column8" data-column="column8">8:00 AM</td>
+      </tr>
+      <tr class="row100">
+        <td class="column100 column1" data-column="column1">20:30 ~ 21:20</td>
+        <td class="column100 column2" data-column="column2">8:00 AM</td>
+        <td class="column100 column3" data-column="column3">--</td>
+        <td class="column100 column4" data-column="column4">--</td>
+        <td class="column100 column5" data-column="column5">8:00 AM</td>
+        <td class="column100 column6" data-column="column6">--</td>
+        <td class="column100 column7" data-column="column7">5:00 PM</td>
+        <td class="column100 column8" data-column="column8">8:00 AM</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!--===============================================================================================-->  
+  <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+  <script src="vendor/bootstrap/js/popper.js"></script>
+  {{--
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  --}}
+<!--===============================================================================================-->
+  <script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+  <script src="js/main.js"></script>

@@ -26,3 +26,7 @@ Route::get('/buttons' , function(){
 Route::get('/Test/schedule' , function(){
 	return view('.Test.index');
 });
+
+Route::get('/CourseInfo' , function(){
+	return view('.CourseInfo');
+});
