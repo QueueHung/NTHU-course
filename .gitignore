@@ -2,6 +2,7 @@
 /public/hot
 /public/storage
 /public/phpMyAdmin
+/resources/備用
 /storage/*.key
 /vendor
 .env
