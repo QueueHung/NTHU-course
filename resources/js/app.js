@@ -34,3 +34,6 @@ var test = new Vue({
 		seen : true	
 	}
 });
+
+
+const tableDragger = require('table-dragger')

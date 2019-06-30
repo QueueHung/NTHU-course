@@ -1,22 +1,5 @@
-<!--===============================================================================================-->  
-  <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="css/schedule-util.css">
-  <link rel="stylesheet" type="text/css" href="css/schedule-main.css">
-<!--===============================================================================================-->
-
-<div class="table100 ver5 m-b-110">
-  <table data-vertable="ver5">
+<div class="table100 ver5 m-b-110" >
+  <table data-vertable="ver5" id="dragger-table">
     <thead>
       <tr class="row100 head">
         <th class="column100 column1" data-column="column1"></th>
@@ -121,14 +104,21 @@
   </table>
 </div>
 
-<!--===============================================================================================-->  
-  <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-  <script src="vendor/bootstrap/js/popper.js"></script>
-  {{--
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-  --}}
-<!--===============================================================================================-->
-  <script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-  <script src="js/schedule-main.js"></script>
+<script type="text/javascript" src="{{asset('js/table-dragger.min.js')}} "></script>
+<script type="text/javascript">
+  var el = document.getElementById('dragger-table');
+  //el.style.cssText = 'background-color:#0f0f0f';
+  
+  var dragger = tableDragger(el, {
+    mode: 'row',
+    dragHandler: '.row100',
+    onlyBody: true,
+    animation: 100
+  });
+  
+  dragger.on('drop',function(from, to){
+    console.log(from);
+    console.log(to);
+  });
+  
+</script>

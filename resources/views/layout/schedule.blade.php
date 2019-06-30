@@ -1,18 +1,18 @@
 <!--===============================================================================================-->  
-  <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+  <link rel="icon" type="image/png" href="{{asset('images/icons/favicon.ico')}}"/>
 <!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="{{asset('vendor/bootstrap/css/bootstrap.min.css')}}">
 <!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="{{asset('fonts/font-awesome-4.7.0/css/font-awesome.min.css')}}">
 <!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+  <link rel="stylesheet" type="text/css" href="{{asset('vendor/animate/animate.css')}}">
 <!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+  <link rel="stylesheet" type="text/css" href="{{asset('vendor/select2/select2.min.css')}}">
 <!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+  <link rel="stylesheet" type="text/css" href="{{asset('vendor/perfect-scrollbar/perfect-scrollbar.css')}}">
 <!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="css/schedule-util.css">
-  <link rel="stylesheet" type="text/css" href="css/schedule-main.css">
+  <link rel="stylesheet" type="text/css" href="{{asset('css/schedule-util.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{asset('css/schedule-main.css')}}">
 <!--===============================================================================================-->
 
 <div class="table100 ver1 m-b-110">
@@ -32,7 +32,9 @@
     <tbody>
       <tr class="row100">
         <td class="column100 column1" data-column="column1">08:00 ~ 08:50</td>
-        <td class="column100 column2" data-column="column2">8:00 AM</td>
+        <td class="column100 column2" data-column="column2">
+          <button class="CourseButton">Hi</button>
+        </td>
         <td class="column100 column3" data-column="column3">--</td>
         <td class="column100 column4" data-column="column4">--</td>
         <td class="column100 column5" data-column="column5">8:00 AM</td>
@@ -172,13 +174,16 @@
 </div>
 
 <!--===============================================================================================-->  
-  <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+  <script src="{{asset('vendor/jquery/jquery-3.2.1.min.js')}}"></script>
 <!--===============================================================================================-->
-  <script src="vendor/bootstrap/js/popper.js"></script>
+  <script src="{{asset('vendor/bootstrap/js/popper.js')}}"></script>
   {{--
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
   --}}
 <!--===============================================================================================-->
-  <script src="vendor/select2/select2.min.js"></script>
+  <script src="{{asset('vendor/select2/select2.min.js')}}"></script>
 <!--===============================================================================================-->
-  <script src="js/schedule-main.js"></script>
+  <script src="{{asset('js/schedule-main.js')}}"></script>
+
+
+  

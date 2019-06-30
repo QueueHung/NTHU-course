@@ -310,13 +310,27 @@
 
   <!-- Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>
+
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Core plugin JavaScript-->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
+ 
   <!-- Custom scripts for all pages-->
   <script src="js/sb-admin-2.min.js"></script>
+{{--
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="Javascript" src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+--}}
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" />
+  <script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript">
+    // A $( document ).ready() block.
+    $( document ).ready(function() {
+        console.log( "ready!" );
+        $('#myTable').DataTable();
+    });
+  </script>
 
 </body>
 

@@ -24,6 +24,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "codyhouse-framework": "^2.0.1"
+        "codyhouse-framework": "^2.0.1",
+        "table-dragger": "^1.0.2"
     }
 }

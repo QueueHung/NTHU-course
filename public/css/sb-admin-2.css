@@ -12058,3 +12058,12 @@ footer.sticky-footer .copyright {
 body.sidebar-toggled footer.sticky-footer {
   width: 100%;
 }
+
+
+/* Sols setting */
+
+.CourseButton{
+  border-radius: 8px;
+  background-color: #ff6600;
+  width: inherit;
+}

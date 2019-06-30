@@ -1,5 +1,6 @@
-<!-- Custom styles for this page -->
-<link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">  
+
+<link href="https://cdn.datatables.net/1.10.18/css/jquery.dataTables.min.css" rel="stylesheet">
+
 
 <div class="card-body">
   <div class="table-responsive">
@@ -487,9 +488,7 @@
 </div>
 
 
-<!-- Page level plugins -->
-<script src="vendor/datatables/jquery.dataTables.min.js"></script>
-<script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
 
-<!-- Page level custom scripts -->
-<script src="js/demo/datatables-demo.js"></script>
+
+
+

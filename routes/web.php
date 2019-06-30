@@ -30,3 +30,11 @@ Route::get('/Test/schedule' , function(){
 Route::get('/CourseInfo' , function(){
 	return view('.CourseInfo');
 });
+
+Route::get('/test/CourseInfo' , function(){
+	return view('.Test.CourseInfo');
+});
+
+Route::get('/test/test' , function(){
+	return view('.Test.test');
+});
