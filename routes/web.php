@@ -28,13 +28,19 @@ Route::get('/Test/schedule' , function(){
 	return view('.Test.index');
 });
 
+/*
 Route::get('/CourseInfo' , function(){
 	return view('.CourseInfo');
 });
+*/
 
 Route::get('/test/test' , function(){
 	return view('.Test.test');
 });
 
+
+Route::get('/CourseInfo','CoursesController@show');
+
+Route::post('/AjaxUpdateCourseInfo','CoursesController@Ajaxupdate');
 
 //Route::get('/home', 'HomeController@index')->name('home');
